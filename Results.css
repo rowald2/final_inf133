@@ -1,0 +1,31 @@
+*{
+  overflow-x: hidden;
+}
+.result-background{
+  background: #255799;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 1.25rem;
+}
+
+.result-box{
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: .5rem;
+  padding: 2rem 0rem;
+  max-width: 50%;
+  text-align: center;
+  margin: .6rem 0rem;
+}
+
+.result-box img{
+  max-width: 100%;
+  border-radius: .3rem;
+  margin-top: .75rem;
+}
+
+.result-box h2, .result-box h3{
+  margin: .5rem 0;
+}

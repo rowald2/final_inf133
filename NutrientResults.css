@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+.nutrition-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #255799;
+  padding: 10rem 0rem;
+  width: 100vw;
+}
+
+.nutrition-box {
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: .2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nutrition-box h2, .nutrition-box h3 {
+  margin: .5rem 0;
+}
